@@ -75,6 +75,7 @@ public class V1 extends JFrame implements ActionListener {
 		}
 		{
 			txtN1 = new JTextField();
+			txtN1.setText("qqqqqq");
 			txtN1.setBounds(128, 20, 86, 20);
 			contentPane.add(txtN1);
 			txtN1.setColumns(10);
