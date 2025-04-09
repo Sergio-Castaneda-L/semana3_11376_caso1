@@ -118,6 +118,10 @@ public class V1 extends JFrame implements ActionListener {
 				scrollPane.setViewportView(txtS);
 			}
 		}
+		
+		JButton btnNewButton_1 = new JButton("Borrar");
+		btnNewButton_1.setBounds(29, 93, 89, 23);
+		contentPane.add(btnNewButton_1);
 	}
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == btnSumarDosReales) {
